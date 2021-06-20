@@ -4,12 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email- Newsletter</title>
-    <link rel="stylesheet" href="./styles/styles.css" type="text/css">
+    <title>Rock Paper Scissor</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==
     " crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    
 </head>
 <body>
-    
+    <main>
+        <header>
+            <div>
+                <h1>
+                    <span>ROCK</span>
+                    <span>PAPER</span>
+                    <span>SCISSORS</span>
+                </h1>
+            </div>
+            <div>
+                <p>
+                    <strong>Computer :</strong>
+                    <span id = "Computer Score">0</span>
+                </p>
+                <p>
+                    <strong>You :</strong>
+                    <span id = "Your Score">0</span>
+                </p>
+            </div>
+
+        </header>
+        <section class="hands">
+            <button>
+                <i class="far fa-hand-rock"></i>
+            </button>
+            <button><i class="far fa-hand-paper"></i>
+            </button>
+            <button><i class="far fa-hand-scissors"></i>
+            </button>
+        </section>
+        <section class="Result">
+            <div class="game-start" id="game-start">
+                <button id="game-start">START</button>
+            </div>
+            <div class="game-result hidden" id="game-result">
+            <p id="Computer's Choice- "></p>
+            <p id="Your Choice- "></p>
+            <div id="Result " class="Result-message"></div>
+            </div>
+        </section>
+    </main>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>
