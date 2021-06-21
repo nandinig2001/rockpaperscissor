@@ -63,6 +63,10 @@ header p{
     color: rgb(0, 0, 0); 
 }
 
+
+
+ 
+
 .hands{
     height: 10rem;
     display: flex;
@@ -72,9 +76,9 @@ header p{
 }
 
 .hands button{
-    width: 6rem;
-    height: 6rem;
-    border-radius: 70%;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 40%;
     font-size: 3rem;
     color:#fff;
     background-color: var(--background-color);
@@ -92,53 +96,53 @@ header p{
     transform: scale(1.1);
 }
 
-.Result{
+.result{
     text-align: center;
     font-size: 1.2rem;
     color: #4a025c;
     margin-top: 1.5rem;
 }
 
-.Result button{
-    padding: 0.2rem 0.2rem;
-    color: #ffffff;
-    background-color: #6617cb;
-    width: 50%;
-    font-size: 1.3rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all;
-    
-}
-
-.Result button:hover{
-    transform: translateY(3px);
-    color: #000000;
-}
-
-.Result button:hover:active{
-    transform: scale(1.1);
-}
-
-
-.Result p{
+.result p{
     margin-bottom: 0.5rem;
     margin-top: 1rem;
     color: #000000;
     height: 2rem;
 }
 
-.Result-message{
-    padding: 0.5rem 0.5rem;
+.result button{
+    padding: 0.2rem 0.2rem;
+    color: #ffffff;
+    background-color: #6617cb;
+    width: 50%;
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all;
+    
+}
+
+.result button:hover{
+    transform: translateY(3px);
+    color: #000000;
+}
+
+.result button:hover:active{
+    transform: scale(1.1);
+}
+
+
+
+.result-message{
     color: #ffffff;
     background-color: #6617cb;
     width: 50%;
     margin: 0.5rem auto;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
 .hidden{
     display: none;
-    
+
 }

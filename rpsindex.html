@@ -18,38 +18,39 @@
                 <h1>
                     <span>ROCK</span>
                     <span>PAPER</span>
-                    <span>SCISSORS</span>
+                    <span>SCISSOR</span>
                 </h1>
             </div>
+            
             <div>
                 <p>
                     <strong>Computer :</strong>
-                    <span id = "Computer Score">0</span>
+                    <span id = "computer_score">0</span>
                 </p>
                 <p>
                     <strong>You :</strong>
-                    <span id = "Your Score">0</span>
+                    <span id = "user_score">0</span>
                 </p>
             </div>
 
         </header>
-        <section class="hands">
-            <button>
-                <i class="far fa-hand-rock"></i>
+        <section class="hands hidden">
+            <button >
+                <i class="far fa-hand-rock" onclick="check('rock')"></i>
             </button>
-            <button><i class="far fa-hand-paper"></i>
+            <button><i class="far fa-hand-paper" onclick="check('paper')"></i>
             </button>
-            <button><i class="far fa-hand-scissors"></i>
+            <button><i class="far fa-hand-scissors" onclick="check('scissors')"></i>
             </button>
         </section>
-        <section class="Result">
+        <section class="result">
             <div class="game-start" id="game-start">
-                <button id="game-start">START</button>
+                <button id="btn-game-start">START</button>
             </div>
             <div class="game-result hidden" id="game-result">
-            <p id="Computer's Choice- "></p>
-            <p id="Your Choice- "></p>
-            <div id="Result " class="Result-message"></div>
+            <p id="computer_choice"></p>
+            <p id="user_choice"></p>
+            <div id="result" class="result-message"></div>
             </div>
         </section>
     </main>
